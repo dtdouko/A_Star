@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib">
+      <UniqueIdentifier>{48de8be7-243d-473c-83d6-24497d28930d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\ci_ext">
+      <UniqueIdentifier>{ff547c9a-8138-4787-b3e5-c3cb0eb05765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Main">
+      <UniqueIdentifier>{04034556-8721-41a1-8285-11f62a4c2812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{7025609c-2367-4992-b25a-6244d97df094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\ObjectBase">
+      <UniqueIdentifier>{44323040-6f5f-45ee-99ff-5fd57e5af001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\MainGameEntry">
+      <UniqueIdentifier>{b0ed4306-bc94-4a31-b02a-c10d35c1c933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\World">
+      <UniqueIdentifier>{62513794-0c72-4518-a3f7-46e32a79f3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\World\Cell">
+      <UniqueIdentifier>{e39adb20-80fd-46ad-a32f-05b0d23548fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Agent">
+      <UniqueIdentifier>{e40ccb6f-b9de-4cf7-8d02-805f658b8ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Navigation">
+      <UniqueIdentifier>{f18a0ff1-dcd8-4711-b68a-d18dbc5cb57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Meta">
+      <UniqueIdentifier>{5a7a0b12-ac85-4ed7-aa7a-2dfc4bc13dd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\ci_ext\Console.hpp">
+      <Filter>ソース ファイル\Lib\ci_ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\object.hpp">
+      <Filter>ソース ファイル\Lib\ci_ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\xinput.hpp">
+      <Filter>ソース ファイル\Lib\ci_ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\gplib.h">
+      <Filter>ソース ファイル\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\lib_Window.hpp">
+      <Filter>ソース ファイル\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\lib_windowDx.hpp">
+      <Filter>ソース ファイル\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameManager.hpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene.hpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\BaseGameEntity.h">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\C2DMatrinx.hpp">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\MovingEntity.h">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\Prm.h">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\SteeringBehaviors.h">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\utils.h">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ObjectBase\Vector2D.hpp">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\MainGameEntry\MainGameEntry.hpp">
+      <Filter>ソース ファイル\Game\MainGameEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\World\Cell\Cell.h">
+      <Filter>ソース ファイル\Game\World\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\World\World.h">
+      <Filter>ソース ファイル\Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Agent\Agent.h">
+      <Filter>ソース ファイル\Game\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Navigation\Naviogation.h">
+      <Filter>ソース ファイル\Game\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Meta\Meta.h">
+      <Filter>ソース ファイル\Game\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ThreadAdmin.hpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\gplib.cpp">
+      <Filter>ソース ファイル\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Main.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\ObjectBase\BaseGameEntity.cpp">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\ObjectBase\MovingEntity.cpp">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\ObjectBase\SteeringBehaviors.cpp">
+      <Filter>ソース ファイル\Game\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\World\Cell\Cell.cpp">
+      <Filter>ソース ファイル\Game\World\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\World\World.cpp">
+      <Filter>ソース ファイル\Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Agent\Agent.cpp">
+      <Filter>ソース ファイル\Game\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Navigation\Navigation.cpp">
+      <Filter>ソース ファイル\Game\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Meta\Meta.cpp">
+      <Filter>ソース ファイル\Game\Meta</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
